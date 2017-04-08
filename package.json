@@ -1,0 +1,22 @@
+{
+  "name": "test-react",
+  "version": "1.0.0",
+  "description": "test react",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th0was14/TestReact.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Thomas Caillard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th0was14/TestReact/issues"
+  },
+  "homepage": "https://github.com/th0was14/TestReact#readme"
+}
