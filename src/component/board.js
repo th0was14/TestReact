@@ -1,6 +1,15 @@
+import React from 'react';
+import Square from './square.js';
+
 class Board extends React.Component {
+  constructor(props) {
+      super(props);
+      // this.state = {likesCount : 0};
+      // this.onLike = this.onLike.bind(this);
+    }
+
   renderSquare(i) {
-    return <Square />;
+    return <Square value={i} />;
   }
   render() {
     const status = 'Next player: X';
@@ -26,3 +35,5 @@ class Board extends React.Component {
     );
   }
 }
+
+export default Board;

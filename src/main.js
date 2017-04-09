@@ -1,7 +1,12 @@
-ReactDOM.render(
-  <Game />,
-  document.getElementById('container')
-);
+
+import React from 'react';
+import {render} from 'react-dom';
+import Game from './component/game.js';
+import './scss/app.scss';
+
+console.log('Test webpack config');
+
+render(<Game />, document.getElementById('container'));
 
 function calculateWinner(squares) {
   const lines = [

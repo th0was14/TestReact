@@ -4,7 +4,10 @@
   "description": "test react",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --progress --color",
+    "build": "webpack -p --progress",
+    "start": "http-server -p 3000 ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,25 @@
   "bugs": {
     "url": "https://github.com/th0was14/TestReact/issues"
   },
-  "homepage": "https://github.com/th0was14/TestReact#readme"
+  "homepage": "https://github.com/th0was14/TestReact#readme",
+  "dependencies": {
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "http-server": "^0.9.0",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^4.5.2",
+    "react-hot-loader": "^1.3.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack-dev-server": "^2.4.2"
+  }
 }

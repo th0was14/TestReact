@@ -1,4 +1,11 @@
+import React from 'react';
+import Board from './board.js';
+
 class Game extends React.Component {
+  constructor(props){
+    super(props);
+  }
+
   render() {
     return (
       <div className="game">
@@ -13,3 +20,5 @@ class Game extends React.Component {
     );
   }
 }
+
+export default Game;
