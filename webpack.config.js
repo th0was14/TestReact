@@ -29,7 +29,7 @@ var plugins = [extractTextPlugin];
 var config = {
   entry: APP_DIR + '/main.js',
   output: {
-    publicPath: 'http://localhost:8080/',
+    //publicPath: '/assets/',
     path: BUILD_DIR,
     filename: 'bundle.js'
   },

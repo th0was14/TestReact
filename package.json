@@ -5,9 +5,9 @@
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --hot --progress --color",
+    "dev": "webpack-dev-server --inline --hot --progress --color --open",
     "build": "webpack -p --progress",
-    "start": "http-server -p 3000 ."
+    "start": "npm run dev"
   },
   "repository": {
     "type": "git",
